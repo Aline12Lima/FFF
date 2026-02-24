@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Definindo as cores direto no CSS para evitar erros de config */
+@theme {
+    --color-brand-blue: #003399;
+    /* Azul da Drywall Vital */
+    --color-brand-yellow: #FFB800;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
