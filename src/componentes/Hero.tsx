@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <section
       id="Hero"
-      className="relative h-[100vh] w-full overflow-hidden bg-brand-blue"
+      className="relative h-[110vh] w-full overflow-hidden bg-brand-blue"
     >
       <Swiper
         modules={[Autoplay, EffectFade]}
@@ -39,18 +39,18 @@ export default function Hero() {
 
       {/* Conteúdo do Texto */}
       <div className="absolute inset-0 z-10 flex flex-col justify-center px-6 md:px-20">
-        <div className="max-w-4xl">
-          <span className="text-brand-yellow font-black tracking-[0.3em] uppercase text-sm  mt-48 mb-4 block animate-fadeIn">
+        <div className="max-w-3xl">
+          <span className="text-brand-yellow font-black tracking-[0.1em] uppercase text-sm md:mt-32 mt-0 mb-4 block animate-fadeIn">
             Engenharia de Base e Fundações
           </span>
 
-          <h1 className="text-3xl md:text-7xl font-black text-white leading-tight uppercase mb-6">
+          <h1 className="text-2xl md:text-7xl font-black text-white leading-tight uppercase mb-2">
             Soluções em <br />
             <span className="text-brand-yellow">Prédios e Galpões</span> <br />
             Industriais
           </h1>
 
-          <p className="text-gray-200 text-lg md:text-xl font-medium max-w-2xl mb-10 border-l-4 border-brand-yellow pl-6">
+          <p className="text-gray-200 text-lg md:text-xl font-medium max-w-2xl mb-2 border-l-4 border-brand-yellow pl-6">
             Atendimento especializado em toda a região de **São Paulo**.
             Executamos obras de alta complexidade com precisão técnica.
           </p>
