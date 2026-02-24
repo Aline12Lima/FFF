@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import { MessageCircle } from "lucide-react";
-import logo from "../assets/Black_minimalist_architect_logo-removebg-preview.png";
+
 import hero1 from "../assets/imgs/Hero.jpg";
 
 // @ts-ignore
@@ -40,9 +40,6 @@ export default function Hero() {
       {/* Conteúdo do Texto */}
       <div className="absolute inset-0 z-10 flex flex-col justify-center px-6 md:px-20">
         <div className="max-w-4xl">
-          <div className="bg-white/30 mt-32 p-2 rounded-lg shadow-lg">
-            <img src={logo} alt="Logo" className="w-52 h-52 object-contain" />
-          </div>
           <span className="text-brand-yellow font-black tracking-[0.3em] uppercase text-sm mb-4 block animate-fadeIn">
             Engenharia de Base e Fundações
           </span>
