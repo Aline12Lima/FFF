@@ -40,11 +40,11 @@ export default function Hero() {
       {/* Conteúdo do Texto */}
       <div className="absolute inset-0 z-10 flex flex-col justify-center px-6 md:px-20">
         <div className="max-w-4xl">
-          <span className="text-brand-yellow font-black tracking-[0.3em] uppercase text-sm  mt-26 mb-4 block animate-fadeIn">
+          <span className="text-brand-yellow font-black tracking-[0.3em] uppercase text-sm  mt-48 mb-4 block animate-fadeIn">
             Engenharia de Base e Fundações
           </span>
 
-          <h1 className="text-4xl md:text-7xl font-black text-white leading-tight uppercase mb-6">
+          <h1 className="text-3xl md:text-7xl font-black text-white leading-tight uppercase mb-6">
             Soluções em <br />
             <span className="text-brand-yellow">Prédios e Galpões</span> <br />
             Industriais
