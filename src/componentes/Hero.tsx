@@ -4,8 +4,9 @@ import { MessageCircle } from "lucide-react";
 import logo from "../assets/Black_minimalist_architect_logo-removebg-preview.png";
 import hero1 from "../assets/imgs/Hero.jpg";
 
-// Importe os estilos do Swiper
+// @ts-ignore
 import "swiper/css";
+// @ts-ignore
 import "swiper/css/effect-fade";
 
 const images = [hero1];
